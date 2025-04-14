@@ -1,0 +1,502 @@
+/*These are the fonts that will be used throughout the program, I chose them because it is easier to read for dyslexic people */
+* {
+    font-family: Arial, Helvetica, sans-serif; /* Sets a default sans-serif font for the entire document */
+    box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+}
+
+/*Changes the background colour of the entire page to a dark blue and the colour of the text to green the high contrast bettween the two color makes it easier to read  */
+/* Body styling */
+body {
+    background-color: #0d1b2a; /* Dark background color for the body */
+    color: #77ffdf; /* Light teal color for the text */
+
+}
+#about {
+    margin: 0; /* Removes default margin */
+    padding: 1em; /* Adds padding to the body */
+    line-height: 1.6; /* Sets the line height for better readability */
+}
+/*This style adds a box surrounding the navigation links and changes the colour of both the border and text to a shade of green */
+.nav {
+    /*Defines the box shape and color around the nav objects and removes the hyperlinked underline from the text */
+    border: 4px solid #77ffdf;
+    padding: 0.2em 0.6em;
+    text-decoration: none;
+    color: #77ffdf;
+}
+
+.nav:hover {
+    /* Changes the color of the box when hovered over*/
+    background-color: #77ffdf;
+}
+
+/* stretches the banner accross the top of the screen */
+#header {
+    background-image: url(images/th-341199838.jpg);
+    background-repeat: repeat-x;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    text-align: center;
+  }
+#h1index {
+    font-size: 50px;
+}
+/*Makes the background color thats overflowing past the text disapear */
+#section1 {
+    border: #000000 solid 3px;
+    margin: 1em;
+    background: #005a45;
+    overflow: hidden;
+    max-width: 700px;
+}
+
+#section2 {
+    border: #000000 solid 3px;
+    margin: 1em;
+    background: #005a45;
+    overflow: hidden;
+    max-width: 700px;
+}
+
+/*Positions the logo ontop of the world image and places itself above it on the z axis */
+#logo {
+    float:right;
+    height: 300px;
+    max-width: 40%; 
+    max-height: 100%; 
+    position: relative;
+    margin-top: 105px; 
+    margin-right: 90px;
+    z-index: 2;
+}
+
+/*makes it Map oval and places itself bellow the logo  */
+
+#world {
+    border-radius: 50%;
+    float: right;
+    margin-left: 20px; 
+    max-width: 40%; 
+    max-height: 100%; 
+    position: relative;
+    margin-top: -350px;
+    z-index: 1;
+
+}
+
+
+a {
+    color: #77ffdf;
+  }
+
+
+.button {
+    border: 4px solid #77ffdf;
+    padding: 0.2em 0.6em;
+    text-decoration: none;
+    color: #77ffdf;
+    
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    /*Changes mouse into a pointer when hovering over the sumbit and reset button  */
+    margin: 2px 2px;
+    text-decoration: none; 
+    background-color: #77ffdf;
+    cursor: pointer;
+}
+
+input[type=text] {
+    /*Animates the text box when you click it  */
+    width: 130px;
+    border-radius: 4px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    /*Limits the amounts the text box stretches as it is selected */
+    width: 50%;
+  }
+
+legend{
+    background-color: #005a45;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.grid-container {
+    /*Makes container into a grid and the fieldsets ordered into collumns */
+    display: grid;
+    margin: 1em;
+    padding: 1em;
+    grid-auto-flow: column;
+    grid-template-areas: 
+    "jobsrefnum . . ."
+    "firstname lastname . ." 
+    "Male Female X ."
+    "DOB . . ."
+    "streetaddress suburb postcode postcode"
+    "email phone . .";
+
+}
+
+/* defines all grid area */
+#jobsrefnum {grid-area: jobsrefnum;}
+#firstname {grid-area: firstname;}
+#lastname {grid-area: lastname;}
+#Male {grid-area: Male;}
+#Female {grid-area: Female;}
+#X {grid-area: X;}
+#DOB {grid-area: DOB;}
+#streetaddress {grid-area: streetaddress;}
+#suburb {grid-area: suburb;}
+#state {grid-area: postcode;}
+#email {grid-area: email;}
+#phone {grid-area: phone;}
+#skils {grid-area: skills;}
+
+
+/* Main heading */
+#h1 {
+    text-align: center; /* Centers the main heading */
+    font-size: 2.5em; /* Sets a large font size for the heading */
+    color: #77ffdf; /* Sets the color to match the body text */
+    border-bottom: 2px solid #1ea082; /* Adds a green border below the heading */
+    padding-bottom: 0.3em; /* Adds space below the heading */
+    margin-bottom: 1em; /* Adds margin below the heading */
+}
+
+/* Section headings */
+.h2 {
+    color: #fca311; /* Sets section heading color to a golden yellow */
+}
+
+.h3 {
+    color: #ffffff; /* Sets the subheading color to white */
+    margin-top: 1.5em; /* Adds space above subheadings */
+}
+
+#h4 {
+    color: #9bc53d; /* Sets the color of h4 to a green shade */
+}
+
+/* Paragraphs */
+.p {
+    margin: 0.4em 0; /* Adds top and bottom margin for spacing between paragraphs */
+}
+
+/* Ordered list */
+ol {
+    padding-left: 1.5em; /* Adds indentation to ordered lists */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Ensures the table takes up full width of its container */
+    border-collapse: collapse; /* Collapses borders so they don't double up */
+    margin-top: 1em; /* Adds space above the table */
+}
+
+caption {
+    caption-side: top; /* Positions the caption at the top of the table */
+    font-weight: bold; /* Makes the caption text bold */
+    font-size: 1.2em; /* Increases font size for the caption */
+    margin-bottom: 0.5em; /* Adds margin below the caption */
+}
+
+th, td {
+    border: 1px solid #1ea082; /* Adds a green border around table cells */
+    padding: 0.5em; /* Adds padding inside each table cell */
+    text-align: center; /* Centers the content in each cell */
+}
+
+th {
+    background-color: #1ea082; /* Adds a green background color to table headers */
+    color: #0d1b2a; /* Sets text color of table headers to dark */
+}
+
+tr:nth-child(even) {
+    background-color: #142d4c; /* Alternates row background color for even rows for better readability */
+}
+
+/* Definition list */
+dl {
+    margin-left: 1em; /* Adds indentation for definition lists */
+}
+
+dt {
+    font-weight: bold; /* Makes definition term bold */
+    margin-top: 1em; /* Adds top margin to definition terms */
+}
+
+dd {
+    margin-left: 1em; /* Indents definition descriptions */
+    margin-bottom: 0.5em; /* Adds bottom margin between each definition description */
+}
+
+/* Image section */
+figure {
+    top: 320px; /* Sets the position from the top (likely intended for absolute positioning) */
+    text-align: right; /* Aligns the image to the right */
+    margin-top: 1em; /* Adds space at the top of the figure */
+}
+
+img {
+    border: 3px solid #0d1b2a; /* Adds a border around images with dark color */
+    border-radius: 8px; /* Rounds the corners of the image */
+}
+
+figcaption {
+    color: #aaa; /* Sets the caption text color to light gray */
+    font-style: italic; /* Makes the caption text italic */
+    margin-top: 0.3em; /* Adds space between the image and caption */
+}
+
+/* Student IDs section */
+.student-ids {
+    position: absolute; /* Positions the section absolutely */
+    top: 140px; /* Places it 140px from the top of its container */
+    right: 2em; /* Places it 2em from the right side of the container */
+    text-align: right; /* Aligns the text inside this section to the right */
+    margin: 0; /* Removes margin */
+    padding: 0; /* Removes padding */
+    line-height: 1.4; /* Sets line height for readability */
+}
+
+.side-photo-heading {
+    color: #fca311; /* Sets the color of the side photo heading to golden yellow */
+    font-size: 1.5em; /* Increases the font size of the side photo heading */
+    margin-top: 1em; /* Adds margin to the top of the heading */
+    text-align: right; /* Aligns the text to the right */
+    border-left: none; /* Removes left border */
+    padding-left: 0; /* Removes left padding */
+    margin-bottom: 0.2em; /* Adds small margin at the bottom */
+}
+
+.student-ids figure {
+    margin-top: 0.5em; /* Adds space above the image inside student-ids */
+    text-align: right; /* Aligns the figure to the right */
+}
+
+/* Layout container for group contributions and photo */
+.contribution-photo-container {
+    display: flex; /* Uses flexbox to arrange children side by side */
+    justify-content: space-between; /* Adds space between the group contributions and photo */
+    align-items: flex-start; /* Aligns both sections at the top */
+    margin-top: 2em; /* Adds space at the top of the container */
+}
+
+.group-contributions {
+    width: 60%; /* Takes up 60% of the container width for the group contributions */
+}
+
+.group-photo {
+    width: 35%; /* Takes up 35% of the container width for the group photo */
+    text-align: right; /* Aligns the photo section content to the right */
+}
+
+.group-photo h2 {
+    color: #fca311; /* Sets the heading color to golden yellow for the group photo */
+    font-size: 1.5em; /* Increases the font size of the photo section heading */
+    margin-bottom: 0.5em; /* Adds space below the heading */
+}
+
+.group-photo figure {
+    margin: 0; /* Removes margin from the group photo figure */
+}
+
+.group-photo {
+    text-align: right; /* Aligns the photo to the right */
+    position: absolute; /* Positions the photo absolutely */
+    right: 2em; /* Places the photo 2em from the right side */
+}
+
+
+#head {
+    font: 25px normal Arial, Helvetica, sans-serif;
+    color: #1ea082;
+    text-align: center;
+  }
+
+/*Follows the brief to made the aside sector float on the right, define the suitable margin and padding and set style for the text and the background. Then, design a colored border to make the aside more outstanding to users*/
+aside {
+    float: right;
+    width: 25%; 
+    margin-top: 20px;
+    margin-right:50px;
+    margin-bottom:20px;
+    padding: 2em 1em;
+    font-style: italic;
+    text-align:left;
+    color: hsl(173, 96%, 51%);
+    background-color: hsl(170, 60%, 28%);
+    border: hsl(173, 96%, 51%) solid;
+    border-radius: 15px;
+}
+
+/*For the company logo, set the left and right of the margin to a suitable value and let it float on the right to make people acknowledge the company*/
+#logo2 {
+    width: 10%;
+    float: right;
+    margin-right: 50px;
+    margin-top: -20px;
+}
+
+/*Design the banner image with suitable margin on 2 side and the border*/
+#image2{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: rgb(5, 20, 50) solid;
+    border-radius: 15px;  
+}
+
+/*Designs the qualifications table by set borders and add color to the background to list the needed certifications*/
+.table,.tr,.th,.td {
+    border: 1px solid black;
+    background-color: #cbf4ed;
+} 
+/* For each data cells, set viable margin and padding*/
+.td {
+    margin: 0.5em;
+    padding: 0.5em;
+} 
+
+
+/* For the job positons, define the grid container class to stylize it, then set the grid container in 2 columns with same size and set the gap between them*/
+.grid-container2
+{
+    display: grid;
+    grid-template-columns: 45% 45% ;
+    grid-template-rows: auto auto;
+    margin-left: 70px; /*The article was not in the center as expected, so to fix it, set a suitable margin on the left*/
+    grid-gap:40px;
+
+} 
+
+/*To make the job title more visible to users, design each with border and color for background*/
+.title {
+    background-color: #cbf4ed;
+    margin: 0.5em;
+    padding:0.5em;
+    text-align: center;
+    border: #151c1b solid;
+    border-radius: 15px;
+}
+
+/*Change the font size of the Job positions header*/
+#jp {
+    color: #0d251d;
+    font-size: 32px;
+    background-color: #33a392;
+    margin-left: -10px;
+    margin-right: -20px;
+    padding: 5px 30px;
+} 
+
+/*As each jobs section are divined by the grid container, sets ids sections and stylize them*/
+.section {
+    color: #0d251d; 
+    margin-left: 20px;
+    padding: 3em;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: #39f7d7;
+}
+
+/*To make the qualitifications sector of Security Consultant have the same style like the others, designs it with background color and border*/
+#scq {
+    background-color:#cbf4ed ;
+    border: solid black 1px;
+    padding: 2em;
+ } 
+ 
+ /*Set the General to an individual section to state to applicants that they need this skills to accquire those job*/
+ #general {
+    color: #1ea082;
+     background-color: rgb(5, 20, 50);
+     border-left: #1ea082 double 10px;
+     padding-left: 5em;
+     width: 50%;
+     padding: 1em;
+     font-size: 18px;   
+ }
+
+ /*Stylizes the list*/
+ #overall {
+    list-style-type: square;
+ }
+ /*Stylize the imnage for the General section*/
+ #image{
+    width:40%;
+    float: right;
+    clear: right;
+    border: #39f7d7 solid 5px;
+    border-radius: 15px;
+    margin-right: 30px;
+    margin-top: 50px;
+ }
+
+ /*Design the footer and make sure it has full width by set padding and margin in some side to be negative and text has small font and aligned in the center*/
+footer {
+    color:#212c29;
+    background-color:#1ea082 ;
+    font-size: small;
+    text-align: center;
+    clear: both;
+    width: 100%;
+    margin-left: -20px;
+    margin-right: 20px;
+    margin-bottom: -10px;
+    padding: 20px;
+}
+
+
+
+@media screen and (max-width: 31.25em) {
+    #header {
+        margin: 0;
+    }
+    #h1index {
+        font-size: 50px;
+        margin: 0;
+    } 
+    .nav{
+        border: 2px solid #77ffdf;
+        padding: 0.1em 0.3em;
+
+    }
+
+    #logo{
+        float:none;
+        height: 100px;
+        margin: 0;
+
+    }
+    #world{
+        border-radius: 50%;
+        float: none;  
+        max-height: 100%; 
+        position: relative;
+        margin-top: 100px;
+    }
+    .student-ids{
+        position: relative; /* Positions the section absolutely */
+        top: 1px; /* Places it 140px from the top of its container */
+        right: 2em; /* Places it 2em from the right side of the container */
+        text-align: left; /* Aligns the text inside this section to the right */
+        margin: 0; /* Removes margin */
+        padding: 0; /* Removes padding */
+        line-height: 1.4; /* Sets line height for readability */
+    }
+    .student-ids figure {
+        margin-top: 0.5em; /* Adds space above the image inside student-ids */
+        text-align: left; /* Aligns the figure to the right */
+    }
+    .grid-container2{
+        
+    }
+}

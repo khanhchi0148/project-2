@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+  <meta charset="utf-8">
+  <meta name="author" content="Salahudin Abdi">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Application page</title>
+</head>
+
+<body>
+  <h1>Job application form</h1>
+  <nav>
+    <a class="nav" href="index.html">Menu:🏠︎</a>
+    <a class="nav" href="jobs.html">Jobs:🔧</a>
+    <a class="nav" href="about.html">About:❓</a>
+    <hr>
+  </nav>
+ <!--Sends data to mercury server-->
+  <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
+    <div class="grid-container">
+      <fieldset>
+        <legend>Personal Details</legend>
+
+        <p><label for="jobsrefnum">Job Reference Number</label></p>
+        <select name="jobsrefnum" id="jobsrefnum" required="required">
+          <option value="">Please Select</option>
+          <option value="CA096">CA096</option>
+          <option value="CA122">CA122</option>
+          <option value="CA451">CA451</option>
+          <option value="CA903">CA903</option>
+        </select>
+        <!-- pattern forces only to use charters from the alphabet and the limit of characters is at 20 -->
+        <p>
+          <label for="firstname">First Name</label>
+          <input type="text" name="firstname" id="firstname" size="10" maxlength="20" pattern="[A-Za-z]+" required="required" placeholder="John">
+        </p>
+        <p>
+          <label for="lastname">Last Name</label>
+          <input type="text" name="lastname" id="lastname" size="10" maxlength="20" pattern="[A-Za-z]+" required="required" placeholder="Smith">
+        </p>
+
+        <p><label for="Male">Male</label>
+          <input type="radio" id="Male" name="Gender" value="Male" required="required">
+        </p>
+        <p><label for="Female">Female</label>
+          <input type="radio" id="Female" name="Gender" value="Female">
+        </p>
+        <p><label for="X">X</label>
+          <input type="radio" id="X" name="Gender" value="X">
+        </p>
+
+        <p>
+          <label for="DOB">Date of Birth</label>
+          <input type="date" id="DOB" name="date" required="required">
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Location</legend>
+
+        <p>
+          <label for="streetaddress">Street Address</label>
+          <input type="text" name="streetaddress" id="streetaddress" size="10" maxlength="40" pattern="[a-zA-Z0-9/]++" required="required">
+        </p>
+        <p>
+          <label for="suburb">Suburb/Town</label>
+          <input type="text" name="suburb" id="suburb" size="10" maxlength="40" pattern="[A-Za-z ]+" required="required">
+        </p>
+        <p><label for="state">State</label></p>
+        <select name="state" id="state" required="required">
+          <option value="">Please Select</option>
+          <option value="VIC">VIC</option>
+          <option value="NSW">NSW</option>
+          <option value="QLD">QLD</option>
+          <option value="NT">NT</option>
+          <option value="WA">WA</option>
+          <option value="SA">SA</option>
+          <option value="TAS">TAS</option>
+          <option value="ACT">ACT</option>
+        </select>
+        <p>
+          <label for="postcode">Postcode for VIC</label>
+          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="3000" max="3999" placeholder="3000-3999" required="required">
+        </p>
+        <p>
+          <label for="postcode">Postcode for NSW</label>
+          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="1000" max="2619">
+        </p>
+        <p>
+          <label for="postcode">Postcode for QLD</label>
+          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="4000" max="4999">
+        </p>
+        <p>
+          <label for="postcode">Postcode for NT</label>
+          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="0800" max="0999">
+        </p>
+        <p>
+          <label for="postcode">Postcode for WA</label>
+          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="6000" max="6999">
+        </p>
+        <p>
+          <label for="postcode">Postcode for TAS</label>
+          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="7000" max="7999">
+        </p>
+        <p>
+          <label for="postcode">Postcode for ACT</label>
+          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="0200" max="0299">
+        </p>
+        <p>
+          <label for="postcode">Postcode for SA</label>
+          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="5000" max="5999">
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Contact Details</legend>
+
+        <p>
+          <!-- Pattern makes it so that you have to type email like this example12@gmail.com -->
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" size="10" maxlength="40" pattern="[A-Za-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required="required">
+        </p>
+        <p>
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="phone" id="phone" size="10" minlength="8" maxlength="12" pattern="[0-9]+" required="required">
+        </p>
+      </fieldset>
+
+      <fieldset>
+      
+        <legend>Skills</legend>
+        <input type="checkbox" id="python" name="skills[]" value="python" required="required" checked>
+        <label for="python">Python</label>
+        <input type="checkbox" id="javascript" name="skills[]" value="javascript">
+        <label for="javascript">Javascript</label>
+        <input type="checkbox" id="java" name="skills[]" value="java">
+        <label for="java">Java</label>
+        <input type="checkbox" id="sql" name="skills[]" value="sql">
+        <label for="sql">SQL</label>
+        <input type="checkbox" id="html" name="skills[]" value="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="C" name="skills[]" value="C">
+        <label for="C">C</label>
+        <input type="checkbox" id="Cplusplus" name="skills[]" value="C++">
+        <label for="Cplusplus">C++</label>
+        <!--Gives users 4 rows and 40 collomns to type out there other skills  -->
+        <p>
+          <label for="skills">Other Skills</label><br>
+          <textarea name="skills" id="skills" rows="4" cols="40" placeholder="Write your other skills that may contribute to your success in this job"></textarea>
+        </p>
+      </fieldset>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </div>
+  </form>
+</body>
+</html>
