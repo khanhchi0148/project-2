@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
   <meta charset="utf-8">
+  <meta name="description" content="apply page">
+  <meta name="keywords" content="jobs, application">
   <meta name="author" content="Salahudin Abdi">
   <link rel="stylesheet" href="styles/styles.css">
   <title>Application page</title>
@@ -80,36 +82,36 @@
           <option value="ACT">ACT</option>
         </select>
         <p>
-          <label for="postcode">Postcode for VIC</label>
-          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="3000" max="3999" placeholder="3000-3999" required="required">
+          <label for="vic">Postcode for VIC</label>
+          <input type="text" name="postcode" id="vic" class="postcode" size="10"  pattern="\d{4}" minlength="3000" maxlength="3999" placeholder="3000-3999" required="required">
         </p>
         <p>
-          <label for="postcode">Postcode for NSW</label>
-          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="1000" max="2619">
+          <label for="nsw">Postcode for NSW</label>
+          <input type="text" name="postcode" id="nsw" class="postcode" size="10"  pattern="\d{4}" minlength="1000" maxlength="2619">
         </p>
         <p>
-          <label for="postcode">Postcode for QLD</label>
-          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="4000" max="4999">
+          <label for="qld">Postcode for QLD</label>
+          <input type="text" name="postcode" id="qld" class="postcode" size="10"  pattern="\d{4}" minlength="4000" maxlength="4999">
         </p>
         <p>
-          <label for="postcode">Postcode for NT</label>
-          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="0800" max="0999">
+          <label for="nt">Postcode for NT</label>
+          <input type="text" name="postcode" id="nt" class="postcode" size="10"  pattern="\d{4}" minlength="0800" maxlength="0999">
         </p>
         <p>
-          <label for="postcode">Postcode for WA</label>
-          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="6000" max="6999">
+          <label for="wa">Postcode for WA</label>
+          <input type="text" name="postcode" id="wa" class="postcode" size="10"  pattern="\d{4}" minlength="6000" maxlength="6999">
         </p>
         <p>
-          <label for="postcode">Postcode for TAS</label>
-          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="7000" max="7999">
+          <label for="tas">Postcode for TAS</label>
+          <input type="text" name="postcode" id="tas" class="postcode" size="10" pattern="\d{4}" minlength="7000" maxlength="7999">
         </p>
         <p>
-          <label for="postcode">Postcode for ACT</label>
-          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="0200" max="0299">
+          <label for="act">Postcode for ACT</label>
+          <input type="text" name="postcode" id="act" class="postcode" size="10"  pattern="\d{4}" minlength="0200" maxlength="0299">
         </p>
         <p>
-          <label for="postcode">Postcode for SA</label>
-          <input type="number" name="postcode" class="postcode" size="10"  pattern="{4,4}" min="5000" max="5999">
+          <label for="sa">Postcode for SA</label>
+          <input type="text" name="postcode" id="sa" class="postcode" size="10"  pattern="\d{4}" minlength="5000" maxlength="5999">
         </p>
       </fieldset>
 
