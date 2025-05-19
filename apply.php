@@ -82,37 +82,21 @@
           <option value="ACT">ACT</option>
         </select>
         <p>
-          <label for="vic">Postcode for VIC</label>
-          <input type="text" name="postcode" id="vic" class="postcode" size="10"  pattern="\d{4}" minlength="3000" maxlength="3999" placeholder="3000-3999" required="required">
-        </p>
-        <p>
-          <label for="nsw">Postcode for NSW</label>
-          <input type="text" name="postcode" id="nsw" class="postcode" size="10"  pattern="\d{4}" minlength="1000" maxlength="2619">
-        </p>
-        <p>
-          <label for="qld">Postcode for QLD</label>
-          <input type="text" name="postcode" id="qld" class="postcode" size="10"  pattern="\d{4}" minlength="4000" maxlength="4999">
-        </p>
-        <p>
-          <label for="nt">Postcode for NT</label>
-          <input type="text" name="postcode" id="nt" class="postcode" size="10"  pattern="\d{4}" minlength="0800" maxlength="0999">
-        </p>
-        <p>
-          <label for="wa">Postcode for WA</label>
-          <input type="text" name="postcode" id="wa" class="postcode" size="10"  pattern="\d{4}" minlength="6000" maxlength="6999">
-        </p>
-        <p>
-          <label for="tas">Postcode for TAS</label>
-          <input type="text" name="postcode" id="tas" class="postcode" size="10" pattern="\d{4}" minlength="7000" maxlength="7999">
-        </p>
-        <p>
-          <label for="act">Postcode for ACT</label>
-          <input type="text" name="postcode" id="act" class="postcode" size="10"  pattern="\d{4}" minlength="0200" maxlength="0299">
-        </p>
-        <p>
-          <label for="sa">Postcode for SA</label>
-          <input type="text" name="postcode" id="sa" class="postcode" size="10"  pattern="\d{4}" minlength="5000" maxlength="5999">
-        </p>
+      <p>
+  <label for="postcode">Postcode</label><br>
+  <input type="text" name="postcode" id="postcode" size="10" pattern="0[2-9][0-9]{2}|[1-8][0-9]{3}|9[0-8][0-9]{2}|99[0-3][0-9]|994[0-4]"  placeholder="e.g. 3000">
+</p>
+<p>
+  <strong>Postcode Ranges by State:</strong><br>
+  VIC: 3000–3999<br>
+  NSW: 1000–2619<br>
+  QLD: 4000–4999<br>
+  NT: 0800–0999<br>
+  WA: 6000–6999<br>
+  SA: 5000–5999<br>
+  TAS: 7000–7999<br>
+  ACT: 0200–0299
+</p>
       </fieldset>
 
       <fieldset>
