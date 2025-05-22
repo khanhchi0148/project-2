@@ -12,12 +12,10 @@
 <body id="about">
   
     <h1 id="h1">Ctrl+Alt+Defend</h1> <!-- Main heading of the webpage, representing the group name -->
-    <nav>
-      <!-- Emojies added related to what each page is about-->
-      <a class="nav" href="index.php">Menu:🏠︎</a> 
-      <a class="nav" href="jobs.php">Jobs:🔧</a> 
-      <a class="nav" href="apply.php">Apply:☑️</a>
-    </nav>
+    <?php
+    include "nav.inc"
+?>
+
   <section> <!-- Section to display general group information -->
     <p class="p">Group Name: Ctrl+Alt+Defend</p> <!-- Displays the name of the group -->
     <p class="p">Class Time and Day: Monday, 12:30 PM to 2:30 PM</p> <!-- Displays class time and day -->

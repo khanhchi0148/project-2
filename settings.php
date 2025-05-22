@@ -2,7 +2,6 @@
 $host = "localhost";         
 $user = "root";         
 $pwd = "";              
-$sql_db = "database";  
-
+$sql_db = "pj_p2_db";  
 ?>
 

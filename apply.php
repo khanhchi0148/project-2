@@ -12,12 +12,10 @@
 
 <body>
   <h1>Job application form</h1>
-  <nav>
-    <a class="nav" href="index.php">Menu:🏠︎</a>
-    <a class="nav" href="jobs.php">Jobs:🔧</a>
-    <a class="nav" href="about.php">About:❓</a>
-    <hr>
-  </nav>
+  <?php
+    include "nav.inc"
+?>
+      
  <!--Sends data to mercury server-->
   <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
     <div class="grid-container">

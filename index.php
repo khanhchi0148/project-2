@@ -15,13 +15,10 @@
     </header>
       <h1 id="h1index">Ctrl +Alt +Defend</h1>
       <img id="logo"  src="images/Ctrl+alt+DeFEND_prev_ui.png" alt="Logo stating Ctrl + Alt + Defend">
-        <nav>
-            <!-- Emojies added related to what each page is about-->
-            <a class="nav" href="jobs.php">Jobs:🔧</a> 
-            <a class="nav" href="apply.php">Apply:☑️</a>
-            <a class="nav" href="about.php">About:❓</a>
-        </nav>
-        <hr>
+<?php
+    include "nav.inc"
+?>
+
 
 
         <!-- Description of the cyber security, also the text is in a box which pushes it into multiple lines making it easier to read-->
@@ -37,15 +34,11 @@
         </section>
         <img id="world" src="images/OIP-3430188899.jpg" alt="Image of the world displayed as circuits and technology">
         <!-- where the image is from:https://www.vecteezy.com/vector-art/1340144-blue-world-cyber-circuit-future-technology-background-->
-        <hr>
+    
 
-
-        <footer>
-        <hr>
-            <p>Heres an email link to our company if you have any further questions: <a href="mailto:info@ctrlaltdefend.com"> Email:📧</a></p>
-            <p> Link to our Jira account: <a href="https://scanjira.atlassian.net/jira/software/projects/SCRUM/summary">Jira</a> </p>
-            <p> Link to our Github: <a href="https://github.com/khanhchi0148/project-1" target="_blank">Github</a> </p>
-        </footer>
+<?php
+include "footer.inc"
+?>
 </body>
 </html>
 

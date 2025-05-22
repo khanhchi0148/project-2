@@ -13,9 +13,11 @@
 </head>
 <body>
 <?php
+require_once "settings.php";
+
 include "header.inc";
-include "navp2.inc";
-include "aside.inc";
+include "nav.inc";
+include "asidepg2.inc";
 
 $dbconn = @mysqli_connect($host, $user, $pwd, $sql_db);
 if ($dbconn){
