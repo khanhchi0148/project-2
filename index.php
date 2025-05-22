@@ -17,9 +17,9 @@
       <img id="logo"  src="images/Ctrl+alt+DeFEND_prev_ui.png" alt="Logo stating Ctrl + Alt + Defend">
         <nav>
             <!-- Emojies added related to what each page is about-->
-            <a class="nav" href="jobs.html">Jobs:🔧</a> 
-            <a class="nav" href="apply.html">Apply:☑️</a>
-            <a class="nav" href="about.html">About:❓</a>
+            <a class="nav" href="jobs.php">Jobs:🔧</a> 
+            <a class="nav" href="apply.php">Apply:☑️</a>
+            <a class="nav" href="about.php">About:❓</a>
         </nav>
         <hr>
 
