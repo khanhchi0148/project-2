@@ -35,29 +35,29 @@
     <div class="group-contributions">
       <h2 class="h2">Group Contributions</h2> <!-- Heading for group contributions section -->
       <h3 class="h3">Salahudin</h3> <!-- Heading for Salahudin's contributions -->
-      <ol> <!-- Ordered list for Salahudin's contributions -->
+      <ul> <!-- Ordered list for Salahudin's contributions -->
         <li>Designed the Homepage and contributed to the Application Page.</li>
         <li>Also created and designed the group logo with a focus on modern aesthetics and clear identity.</li>
         <li>Ensured responsive layout and visual consistency across devices.</li>
         <li>Collaborated closely with team members to align the homepage design with the overall theme and functionality of the site.</li>
         <li>Incorporated user-friendly navigation and interactive elements to enhance user experience.</li>
-      </ol>
+      </ul>
       <h3 class="h3">Khanh Chi</h3> <!-- Heading for Khanh Chi's contributions -->
-      <ol> <!-- Ordered list for Khanh Chi's contributions -->
+      <ul> <!-- Ordered list for Khanh Chi's contributions -->
         <li>Designed the Job Page and contributed in the Application Page.</li>
         <li>Focused on creating a clean and intuitive layout to ensure users could easily browse and understand job listings.</li>
         <li>Implemented styling elements that matched the overall theme and color scheme of the website.</li>
         <li>Worked on enhancing accessibility and usability, making the page responsive across various screen sizes.</li>
         <li>Collaborated with the team to ensure seamless integration between the Job Page and the rest of the site.</li>
-      </ol>
+      </ul>
       <h3 class="h3">Arsum</h3> <!-- Heading for Arsum's contributions -->
-      <ol> <!-- Ordered list for Arsum's contributions -->
+      <ul> <!-- Ordered list for Arsum's contributions -->
         <li>Designed the About Page with a focus on clarity, structure, and team representation.</li>
         <li>Organized content to reflect the group’s background, demographics, and shared skills in a visually engaging format.</li>
         <li>Assisted in brainstorming and refining ideas for the group logo, contributing to its final design and meaning.</li>
         <li>Ensured consistency in tone and style throughout the About section to align with the overall site design.</li>
         <li>Worked collaboratively to maintain design coherence across all pages.</li>
-      </ol>
+      </ul>
     </div>
   
     <!-- Right side: Group photo -->
