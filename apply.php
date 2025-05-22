@@ -13,9 +13,9 @@
 <body>
   <h1>Job application form</h1>
   <nav>
-    <a class="nav" href="index.html">Menu:🏠︎</a>
-    <a class="nav" href="jobs.html">Jobs:🔧</a>
-    <a class="nav" href="about.html">About:❓</a>
+    <a class="nav" href="index.php">Menu:🏠︎</a>
+    <a class="nav" href="jobs.php">Jobs:🔧</a>
+    <a class="nav" href="about.php">About:❓</a>
     <hr>
   </nav>
  <!--Sends data to mercury server-->

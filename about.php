@@ -14,9 +14,9 @@
     <h1 id="h1">Ctrl+Alt+Defend</h1> <!-- Main heading of the webpage, representing the group name -->
     <nav>
       <!-- Emojies added related to what each page is about-->
-      <a class="nav" href="index.html">Menu:🏠︎</a> 
-      <a class="nav" href="jobs.html">Jobs:🔧</a> 
-      <a class="nav" href="apply.html">Apply:☑️</a>
+      <a class="nav" href="index.php">Menu:🏠︎</a> 
+      <a class="nav" href="jobs.php">Jobs:🔧</a> 
+      <a class="nav" href="apply.php">Apply:☑️</a>
     </nav>
   <section> <!-- Section to display general group information -->
     <p class="p">Group Name: Ctrl+Alt+Defend</p> <!-- Displays the name of the group -->
