@@ -21,11 +21,11 @@
     <p class="p">Class Time and Day: Monday, 12:30 PM to 2:30 PM</p> <!-- Displays class time and day -->
     <div class="student-ids"> <!-- Div container for listing student IDs -->
       <h4 id="h4">Student IDs</h4> <!-- Subheading for the student IDs list -->
-      <ol> <!-- Ordered list to display the student names and IDs -->
+      <ul> <!-- Ordered list to display the student names and IDs -->
         <li>Salahudin - 105926774</li> <!-- Student 1 name and ID -->
         <li>Arsum - 104986382</li> <!-- Student 2 name and ID -->
         <li>Khanh Chi - 105104871</li> <!-- Student 3 name and ID -->
-      </ol>
+      </ul>
     </div>
     <p class="p">Tutor: Nick</p> <!-- Displays the tutor's name -->
   </section>
