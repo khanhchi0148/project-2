@@ -17,7 +17,7 @@
 ?>
       
  <!--Sends data to mercury server-->
-  <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
+  <form action="process_eoi.php" method="post">
     <div class="grid-container">
       <fieldset>
         <legend>Personal Details</legend>
@@ -41,13 +41,13 @@
         </p>
 
         <p><label for="Male">Male</label>
-          <input type="radio" id="Male" name="Gender" value="Male" required="required">
+          <input type="radio" id="Male" name="gender" value="Male" required="required">
         </p>
         <p><label for="Female">Female</label>
-          <input type="radio" id="Female" name="Gender" value="Female">
+          <input type="radio" id="Female" name="gender" value="Female">
         </p>
         <p><label for="X">X</label>
-          <input type="radio" id="X" name="Gender" value="X">
+          <input type="radio" id="X" name="gender" value="X">
         </p>
 
         <p>
@@ -131,7 +131,7 @@
         <!--Gives users 4 rows and 40 collomns to type out there other skills  -->
         <p>
           <label for="skills">Other Skills</label><br>
-          <textarea name="skills" id="skills" rows="4" cols="40" placeholder="Write your other skills that may contribute to your success in this job"></textarea>
+          <textarea name="othskills" id="othskills" rows="4" cols="40" placeholder="Write your other skills that may contribute to your success in this job"></textarea>
         </p>
       </fieldset>
       <input type="submit" value="Submit">
