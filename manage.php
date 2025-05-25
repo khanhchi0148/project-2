@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="styles/styles.css">
   <title>EOI Manager</title>
 </head>
 <body>
