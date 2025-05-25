@@ -15,7 +15,7 @@
 <?php
 require_once "settings.php";
 
-include "header.inc";
+include "header_jobs_page.inc";
 include "nav.inc";
 include "asidepg2.inc";
 
@@ -45,25 +45,15 @@ if (mysqli_num_rows($result) > 0) {
 
         echo "<li>";
         echo "<p>Job titles:</p>";
-        echo "<ul>";
-        echo "<li>" . $row['titles'] . "</li>";
-        echo "</ul>";
+        echo "<p>" . nl2br(htmlspecialchars($row['titles'])) . "</p>"; //insert HTML linebreak (<br>) in PHP: break newline between each strings 
         echo "</li>";
 
         echo "<li>";
         echo "<p>Responsibilities:</p>";
-        echo "<ul>";
-        echo "<li>" . $row['res'] . "</li>";
-        echo "</ul>";
+        echo "<p>" . nl2br(htmlspecialchars($row['res'])) . "</p>";
         echo "</li>";
 
-       
-        echo "<li>";
-        echo "<p>Responsibilities:</p>";
-        echo "<ul>";
-        echo "<li>" . $row['res'] . "</li>";
-        echo "</ul>";
-        echo "</li>";
+    
         
         echo "</ol>";
 
@@ -73,18 +63,28 @@ if (mysqli_num_rows($result) > 0) {
 
         echo "<li>";
         echo "<p>Skills:</p>";
-        echo "<ul>";
-        echo "<li>" . $row['skills'] . "</li>";
-        echo "</ul>";
-        echo "</li>";
-        
-        echo "<p>Qualitifications:</p>";
-        echo "<li>";
-        
-        echo "<p>" . $row['quali'] . "</p>";
+        echo "<p>" . nl2br(htmlspecialchars($row['skills'])) . "</p>";
         echo "</li>";
 
-        echo "</ol>";
+        echo "<li>";
+        echo "<p>Qualitifications:</p>";
+        echo "<table class='table'>";
+        echo "<tr class='tr'>";
+        echo "<th class='th'>Required</th>";
+        echo "<td class='td'>";
+        echo "<p>" . nl2br(htmlspecialchars($row['quali_req'])) . "</p>";
+        echo "</td>";
+        echo "</tr>";
+
+        echo "<tr class='tr'>";
+        echo "<th class='th'>Preferable</th>";
+        echo "<td class='td'>";
+        echo "<p>" . nl2br(htmlspecialchars($row['quali_pre'])) . "</p>";
+        echo "</td>";
+        echo "</tr>";
+        echo "</table>";
+        echo "</li>";                  
+echo "</ol>";
         
         echo "</section>";
 
