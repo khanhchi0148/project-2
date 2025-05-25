@@ -36,27 +36,30 @@
       <h2 class="h2">Group Contributions</h2> <!-- Heading for group contributions section -->
       <h3 class="h3">Salahudin</h3> <!-- Heading for Salahudin's contributions -->
       <ul> <!-- Unordered list for Salahudin's contributions -->
-        <li>Designed the Homepage and contributed to the Application Page.</li>
-        <li>Also created and designed the group logo with a focus on modern aesthetics and clear identity.</li>
-        <li>Ensured responsive layout and visual consistency across devices.</li>
-        <li>Collaborated closely with team members to align the homepage design with the overall theme and functionality of the site.</li>
-        <li>Incorporated user-friendly navigation and interactive elements to enhance user experience.</li>
+        <li>Implemented backend logic in process_eoi.php to handle expression of interest form submissions.</li>
+        <li>Created settings.php to centralize database connection and configuration.</li>
+        <li>Linked and configured SQL files to support dynamic data handling.</li>
+        <li>Fixed bugs in data processing and validation scripts to improve reliability.</li>
+        <li>Updated configuration files to ensure consistent environment setup.</li>
+        <li>Tested and refined backend integration between forms and the database.</li>
       </ul>
       <h3 class="h3">Khanh Chi</h3> <!-- Heading for Khanh Chi's contributions -->
       <ul> <!-- Unordered list for Khanh Chi's contributions -->
-        <li>Designed the Job Page and contributed in the Application Page.</li>
-        <li>Focused on creating a clean and intuitive layout to ensure users could easily browse and understand job listings.</li>
-        <li>Implemented styling elements that matched the overall theme and color scheme of the website.</li>
-        <li>Worked on enhancing accessibility and usability, making the page responsive across various screen sizes.</li>
-        <li>Collaborated with the team to ensure seamless integration between the Job Page and the rest of the site.</li>
+        <li>Set up initial project structure and repository on GitHub.</li>
+        <li>Integrated PHP with MySQL for job application processing and data storage.</li>
+        <li>Developed key backend pages like about.php and manage.php for content display and management.</li>
+        <li>Created and updated SQL database schema (jobs table and related structure).</li>
+        <li>Completed specific milestones, including Task 7 functionality.</li>
+        <li>Made continuous improvements and bug fixes across multiple files for better performance and consistency.</li>
       </ul>
       <h3 class="h3">Arsum</h3> <!-- Heading for Arsum's contributions -->
       <ul> <!-- Unordered list for Arsum's contributions -->
-        <li>Designed the About Page with a focus on clarity, structure, and team representation.</li>
-        <li>Organized content to reflect the group’s background, demographics, and shared skills in a visually engaging format.</li>
-        <li>Assisted in brainstorming and refining ideas for the group logo, contributing to its final design and meaning.</li>
-        <li>Ensured consistency in tone and style throughout the About section to align with the overall site design.</li>
-        <li>Worked collaboratively to maintain design coherence across all pages.</li>
+        <li>Created about.php to present team and project information.</li>
+        <li>Performed minor text and label updates for clarity and consistency.</li>
+        <li>Resolved merge conflicts during team integration on GitHub.</li>
+        <li>Updated UI components to align with project theme and structure.</li>
+        <li>Created and organized multiple include (.inc) files to modularize PHP code and improve maintainability.</li>
+        <li>Updated the about page with everyone's contribution on this group project!</li>
       </ul>
     </div>
   
