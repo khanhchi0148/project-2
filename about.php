@@ -57,7 +57,6 @@
         <li>Created about.php to present team and project information.</li>
         <li>Performed minor text and label updates for clarity and consistency.</li>
         <li>Resolved merge conflicts during team integration on GitHub.</li>
-        <li>Made the Expression of Interest table in myphpadmin.</li>
         <li>Created and organized multiple include (.inc) files to modularize PHP code and improve maintainability.</li>
         <li>Updated the about page with everyone's contribution on this group project!</li>
       </ul>
