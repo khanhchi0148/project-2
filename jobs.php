@@ -8,8 +8,6 @@
     <meta name="author" content="KCC">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Jobs Application</title>
-
-    <link rel="stylesheet" href="styles.css"> <!--Links the external CSS file-->
 </head>
 <body>
 <?php
