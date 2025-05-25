@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="About us page">
   <meta name="keywords" content="about us, members, contribution">
-  <meta name="author" content="Arsum"> <!-- Sets character encoding to UTF-8 to support a wide range of characters -->
+  <meta name="author" content="Arsum Ahmed"> <!-- Sets character encoding to UTF-8 to support a wide range of characters -->
   <title>About Page</title> <!-- Title of the page, displayed in the browser tab -->
   <link rel="stylesheet" href="styles/styles.css"> <!-- Links an external stylesheet to style the page -->
 </head>
@@ -127,7 +127,10 @@
       <li>I'm currently living in a rented apartment in Riversdale Road.</li> <!-- Personal info: current location -->
     </ul>  
     <h2 class="h2">Group Skills & Experience</h2> <!-- Heading for group skills & experience -->
-    <p class="p">As a group, Ctrl+Alt+Defend brings together a diverse set of skills and experiences across design, development, and problem-solving</p> <!-- Group description and summary of skills -->
+    <p class="p">Front-End Development: Several members had prior experience with HTML and CSS, which helped in creating responsive and accessible page layouts. We used semantic HTML and external stylesheets to ensure consistent styling across pages.</p>
+    <p class="p">PHP & Server-Side Scripting: One member focused on developing the backend using PHP, including form processing (process_eoi.php), server-side validation, sanitization, and secure database interactions using MySQL.</p>
+    <p class="p">Database Management: Our team was responsible for designing the EOI table schema and implementing SQL commands to create and manage the table dynamically. We ensured proper data types and constraints were applied.</p>
+    <p class="p">Team Collaboration & Version Control:We communicated regularly using group chats and held short meetings to track progress. Each member tested different features to ensure quality and resolve bugs quickly.</p> <!-- Group description and summary of skills -->
   </section>
 
   <div class="logo-photo"> <!-- Div container for the group logo photo -->
