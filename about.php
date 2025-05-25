@@ -107,24 +107,24 @@
     
     <h3 class="h3">Salahudin</h3><!-- Subheading for Salahudin's demographic information -->
     <ul><!--Unordered list-->
-      <li>I was born in Australia</p> <!-- Personal info: birth country -->
-      <li>Both of my parents immigrated to here from Somalia</p> <!-- Personal info: parents' origin -->
-      <li>I grew up in Ascot Vale/North Melbourne up to the age of 8 but moved to the South Morang after that</p> <!-- Personal info: childhood location -->
-      <li>Fav animanga - HxH.</p> <!-- Favorite anime/manga -->
+      <li>I was born in Australia</li> <!-- Personal info: birth country -->
+      <li>Both of my parents immigrated to here from Somalia</li> <!-- Personal info: parents' origin -->
+      <li>I grew up in Ascot Vale/North Melbourne up to the age of 8 but moved to the South Morang after that</li> <!-- Personal info: childhood location -->
+      <li>Fav animanga - HxH.</li> <!-- Favorite anime/manga -->
     </ul>
     <h3 class="h3">Arsum</h3> <!-- Subheading for Arsum's demographic information -->
     <ul><!--Unordered list-->
-      <li>I was born in Pakistan</p> <!-- Personal info: birth country -->
-      <li>I came here to Australia as an international student in November 2024.</p> <!-- Personal info: immigration -->
-      <li>I'm currently living in St Albans.</p> <!-- Personal info: current location -->
-      <li>Favorite manga/anime = One Piece</p> <!-- Favorite anime/manga -->
-      <li>Music: hip-hop</p> <!-- Music preference -->
+      <li>I was born in Pakistan</li> <!-- Personal info: birth country -->
+      <li>I came here to Australia as an international student in November 2024.</li> <!-- Personal info: immigration -->
+      <li>I'm currently living in St Albans.</li> <!-- Personal info: current location -->
+      <li>Favorite manga/anime = One Piece</li> <!-- Favorite anime/manga -->
+      <li>Music: hip-hop</li> <!-- Music preference -->
     </ul>
     <h3 class="h3">Khanh Chi</h3> <!-- Subheading for Khanh Chi's demographic information -->
     <ul><!--Unordered list-->
-      <li>I was born in Vietnam</p> <!-- Personal info: birth country -->
-      <li>I came here to Australia as an International Student in December.</p> <!-- Personal info: immigration -->
-      <li>I'm currently living in a rented apartment in Riversdale Road.</p> <!-- Personal info: current location -->
+      <li>I was born in Vietnam</li> <!-- Personal info: birth country -->
+      <li>I came here to Australia as an International Student in December.</li> <!-- Personal info: immigration -->
+      <li>I'm currently living in a rented apartment in Riversdale Road.</li> <!-- Personal info: current location -->
     </ul>  
     <h2 class="h2">Group Skills & Experience</h2> <!-- Heading for group skills & experience -->
     <p class="p">As a group, Ctrl+Alt+Defend brings together a diverse set of skills and experiences across design, development, and problem-solving</p> <!-- Group description and summary of skills -->
