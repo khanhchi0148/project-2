@@ -59,6 +59,7 @@
         <li>Resolved merge conflicts during team integration on GitHub.</li>
         <li>Created and organized multiple include (.inc) files to modularize PHP code and improve maintainability.</li>
         <li>Updated the about page with everyone's contribution on this group project!</li>
+        <li>Remove some major bugs from process_eoi.php and made it run!</li>
       </ul>
     </div>
   
