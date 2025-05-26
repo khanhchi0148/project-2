@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
-  <meta charset="utf-8" />
-  <meta name="author" content="Salahudin Abdi, Arsum Ahmed"  />
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="description" content="process eois">
+  <meta name="keywords" content="process, eois, data">
+  <meta name="author" content="Salahudin Abdi, Arsum Ahmed">
   <title>Menu</title>
   <link rel="stylesheet" href="styles/styles.css">
 </head>
