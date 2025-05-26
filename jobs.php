@@ -15,7 +15,7 @@ require_once "settings.php";
 
 include "header.inc";
 include "nav.inc";
-include "asidepg2.inc";
+include "aside.inc";
 
 $dbconn = @mysqli_connect($host, $user, $pwd, $sql_db);
 if ($dbconn){
