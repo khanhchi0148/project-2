@@ -138,5 +138,8 @@
       <input type="reset" value="Reset">
     </div>
   </form>
+<?php
+include "footer.inc"
+?>
 </body>
 </html>
