@@ -23,7 +23,6 @@ if ($dbconn){
 $sql = "SELECT * FROM jobs";
 $result = mysqli_query($dbconn, $sql);
 if (mysqli_num_rows($result) > 0) {
-    echo "<main>";
     echo "<article>";
     echo "<img id='image2' src='images/cs4.png' alt='Ctrl+alt+DeFEND'>";
     echo "<h2 id='jp'>Jobs position</h2>";
@@ -96,7 +95,6 @@ echo "</article>";
 echo "<br>";
 include "general.inc";
 
-echo "</main>";
 
 
 } 
