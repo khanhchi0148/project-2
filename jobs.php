@@ -32,14 +32,14 @@ if (mysqli_num_rows($result) > 0) {
         echo "<div>";
         echo "<section class='section'>";
 
-        echo "<h2 class='title'>" . $row['name'] . "</h2>";
+        echo "<h2 class='title'>" . htmlspecialchars($row['name']) . "</h2>";
 
-        echo "<p>Reference number:" . $row['ref_num'] . "</p>";
+        echo "<p>Reference number:" . htmlspecialchars($row['ref_num']) . "</p>";
 
         echo "<h3>Description</h3>";
-        echo "<p>" . $row['des'] . "</p>";
+        echo "<p>" . htmlspecialchars($row['des']) . "</p>";
 
-        echo "<p>Salary range:" . $row['salary'] . "</p>";
+        echo "<p>Salary range:" . htmlspecialchars($row['salary']) . "</p>";
         echo "<ol>";
 
         echo "<li>";
