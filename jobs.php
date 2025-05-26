@@ -10,6 +10,7 @@
     <title>Jobs Application</title>
 </head>
 <body>
+<main>
 <?php
 require_once "settings.php";
 
@@ -112,5 +113,6 @@ else {echo "<p>Unable to connect to the db.</p>";}
 echo "<br>";
 include "footer.inc";
 ?>
+</main>
 </body>
 </html>
