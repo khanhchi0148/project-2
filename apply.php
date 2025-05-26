@@ -52,7 +52,7 @@
 
         <p>
           <label for="date">Date of Birth:</label>
-          <input type="text" id="date" name="date" placeholder="dd/mm/yyyy" required>
+          <input type="text" id="date" name="date" placeholder="dd/mm/yyyy" pattern="[0-9]{2,2}/[0-9]{2,2}/[0-9]{4,4}" required>
         </p>
       </fieldset>
 
@@ -61,7 +61,7 @@
 
         <p>
           <label for="streetaddress">Street Address</label>
-          <input type="text" name="streetaddress" id="streetaddress" size="10" maxlength="40" pattern="[a-zA-Z0-9/]+" required="required">
+          <input type="text" name="streetaddress" id="streetaddress" size="10" maxlength="40" pattern="[a-zA-Z0-9/ ]+" required="required">
         </p>
         <p>
           <label for="suburb">Suburb/Town</label>
