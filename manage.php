@@ -88,7 +88,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         echo "<h3>EOIs by Job Reference: " . htmlspecialchars($refnum) . "</h3>";
     }
 
-    if (!empty($_GET['list_fname']) || !empty($_GET['list_lname'])) { // Using Boolean logic so that it is true to fetch data in required table headings
+    if (!empty($_GET['list_fname']) || !empty($_GET['list_lname'])) { // Using Boolean logic so that it is true to fetch data in required table headings, in this case i use OR to fetch data in both queries
         $conditions = []; // Set an array to store 2 queries
         if (!empty($_GET['list_fname'])) {
             $fname = clean_input($dbconn, $_GET['list_fname']);
