@@ -13,7 +13,9 @@
 <body>
     <header id="header" >
     </header>
-      <h1 id="h1index">Ctrl +Alt +Defend</h1>
+<?php 
+    include "header.inc"
+?> 
       <img id="logo"  src="images/Ctrl+alt+DeFEND_prev_ui.png" alt="Logo stating Ctrl + Alt + Defend">
 <?php
     include "nav.inc"

@@ -13,7 +13,7 @@
 <?php
 require_once "settings.php";
 
-include "header_jobs_page.inc";
+include "header.inc";
 include "nav.inc";
 include "asidepg2.inc";
 

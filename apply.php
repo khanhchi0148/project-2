@@ -13,7 +13,7 @@
 <body>
   <h1>Job application form</h1>
   <?php
-    include "nav.inc"
+    include "nav.inc";
 ?>
       
  <!--Sends data to mercury server-->

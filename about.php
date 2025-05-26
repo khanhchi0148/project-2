@@ -11,8 +11,9 @@
 </head>
 <body id="about">
   
-    <h1 id="h1">Ctrl+Alt+Defend</h1> <!-- Main heading of the webpage, representing the group name -->
+  <!-- Main heading of the webpage, representing the group name -->
     <?php
+    include "header.inc";
     include "nav.inc"
 ?>
 
