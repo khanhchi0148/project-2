@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="About us page">
   <meta name="keywords" content="about us, members, contribution">
-  <meta name="author" content="Arsum"> <!-- Sets character encoding to UTF-8 to support a wide range of characters -->
+  <meta name="author" content="Arsum Ahmed"> <!-- Sets character encoding to UTF-8 to support a wide range of characters -->
   <title>About Page</title> <!-- Title of the page, displayed in the browser tab -->
   <link rel="stylesheet" href="styles/styles.css"> <!-- Links an external stylesheet to style the page -->
 </head>
@@ -36,27 +36,30 @@
       <h2 class="h2">Group Contributions</h2> <!-- Heading for group contributions section -->
       <h3 class="h3">Salahudin</h3> <!-- Heading for Salahudin's contributions -->
       <ul> <!-- Unordered list for Salahudin's contributions -->
-        <li>Designed the Homepage and contributed to the Application Page.</li>
-        <li>Also created and designed the group logo with a focus on modern aesthetics and clear identity.</li>
-        <li>Ensured responsive layout and visual consistency across devices.</li>
-        <li>Collaborated closely with team members to align the homepage design with the overall theme and functionality of the site.</li>
-        <li>Incorporated user-friendly navigation and interactive elements to enhance user experience.</li>
+        <li>Implemented backend logic in process_eoi.php to handle expression of interest form submissions.</li>
+        <li>Created settings.php to centralize database connection and configuration.</li>
+        <li>Linked and configured SQL files to support dynamic data handling.</li>
+        <li>Fixed bugs in data processing and validation scripts to improve reliability.</li>
+        <li>Updated configuration files to ensure consistent environment setup.</li>
+        <li>Tested and refined backend integration between forms and the database.</li>
       </ul>
       <h3 class="h3">Khanh Chi</h3> <!-- Heading for Khanh Chi's contributions -->
       <ul> <!-- Unordered list for Khanh Chi's contributions -->
-        <li>Designed the Job Page and contributed in the Application Page.</li>
-        <li>Focused on creating a clean and intuitive layout to ensure users could easily browse and understand job listings.</li>
-        <li>Implemented styling elements that matched the overall theme and color scheme of the website.</li>
-        <li>Worked on enhancing accessibility and usability, making the page responsive across various screen sizes.</li>
-        <li>Collaborated with the team to ensure seamless integration between the Job Page and the rest of the site.</li>
+        <li>Set up initial project structure and repository on GitHub.</li>
+        <li>Integrated PHP with MySQL for job application processing and data storage.</li>
+        <li>Developed key backend pages like about.php and manage.php for content display and management.</li>
+        <li>Created and updated SQL database schema (jobs table and related structure).</li>
+        <li>Completed specific milestones, including Task 7 functionality.</li>
+        <li>Made continuous improvements and bug fixes across multiple files for better performance and consistency.</li>
       </ul>
       <h3 class="h3">Arsum</h3> <!-- Heading for Arsum's contributions -->
       <ul> <!-- Unordered list for Arsum's contributions -->
-        <li>Designed the About Page with a focus on clarity, structure, and team representation.</li>
-        <li>Organized content to reflect the group’s background, demographics, and shared skills in a visually engaging format.</li>
-        <li>Assisted in brainstorming and refining ideas for the group logo, contributing to its final design and meaning.</li>
-        <li>Ensured consistency in tone and style throughout the About section to align with the overall site design.</li>
-        <li>Worked collaboratively to maintain design coherence across all pages.</li>
+        <li>Created about.php to present team and project information.</li>
+        <li>Performed minor text and label updates for clarity and consistency.</li>
+        <li>Resolved merge conflicts during team integration on GitHub.</li>
+        <li>Created and organized multiple include (.inc) files to modularize PHP code and improve maintainability.</li>
+        <li>Updated the about page with everyone's contribution on this group project!</li>
+        <li>Remove some major bugs from process_eoi.php and made it run!</li>
       </ul>
     </div>
   
@@ -105,27 +108,30 @@
     
     <h3 class="h3">Salahudin</h3><!-- Subheading for Salahudin's demographic information -->
     <ul><!--Unordered list-->
-      <li>I was born in Australia</p> <!-- Personal info: birth country -->
-      <li>Both of my parents immigrated to here from Somalia</p> <!-- Personal info: parents' origin -->
-      <li>I grew up in Ascot Vale/North Melbourne up to the age of 8 but moved to the South Morang after that</p> <!-- Personal info: childhood location -->
-      <li>Fav animanga - HxH.</p> <!-- Favorite anime/manga -->
+      <li>I was born in Australia</li> <!-- Personal info: birth country -->
+      <li>Both of my parents immigrated to here from Somalia</li> <!-- Personal info: parents' origin -->
+      <li>I grew up in Ascot Vale/North Melbourne up to the age of 8 but moved to the South Morang after that</li> <!-- Personal info: childhood location -->
+      <li>Fav animanga - HxH.</li> <!-- Favorite anime/manga -->
     </ul>
     <h3 class="h3">Arsum</h3> <!-- Subheading for Arsum's demographic information -->
     <ul><!--Unordered list-->
-      <li>I was born in Pakistan</p> <!-- Personal info: birth country -->
-      <li>I came here to Australia as an international student in November 2024.</p> <!-- Personal info: immigration -->
-      <li>I'm currently living in St Albans.</p> <!-- Personal info: current location -->
-      <li>Favorite manga/anime = One Piece</p> <!-- Favorite anime/manga -->
-      <li>Music: hip-hop</p> <!-- Music preference -->
+      <li>I was born in Pakistan</li> <!-- Personal info: birth country -->
+      <li>I came here to Australia as an international student in November 2024.</li> <!-- Personal info: immigration -->
+      <li>I'm currently living in St Albans.</li> <!-- Personal info: current location -->
+      <li>Favorite manga/anime = One Piece</li> <!-- Favorite anime/manga -->
+      <li>Music: hip-hop</li> <!-- Music preference -->
     </ul>
     <h3 class="h3">Khanh Chi</h3> <!-- Subheading for Khanh Chi's demographic information -->
     <ul><!--Unordered list-->
-      <li>I was born in Vietnam</p> <!-- Personal info: birth country -->
-      <li>I came here to Australia as an International Student in December.</p> <!-- Personal info: immigration -->
-      <li>I'm currently living in a rented apartment in Riversdale Road.</p> <!-- Personal info: current location -->
+      <li>I was born in Vietnam</li> <!-- Personal info: birth country -->
+      <li>I came here to Australia as an International Student in December.</li> <!-- Personal info: immigration -->
+      <li>I'm currently living in a rented apartment in Riversdale Road.</li> <!-- Personal info: current location -->
     </ul>  
     <h2 class="h2">Group Skills & Experience</h2> <!-- Heading for group skills & experience -->
-    <p class="p">As a group, Ctrl+Alt+Defend brings together a diverse set of skills and experiences across design, development, and problem-solving</p> <!-- Group description and summary of skills -->
+    <p class="p">Front-End Development: Several members had prior experience with HTML and CSS, which helped in creating responsive and accessible page layouts. We used semantic HTML and external stylesheets to ensure consistent styling across pages.</p>
+    <p class="p">PHP & Server-Side Scripting: One member focused on developing the backend using PHP, including form processing (process_eoi.php), server-side validation, sanitization, and secure database interactions using MySQL.</p>
+    <p class="p">Database Management: Our team was responsible for designing the EOI table schema and implementing SQL commands to create and manage the table dynamically. We ensured proper data types and constraints were applied.</p>
+    <p class="p">Team Collaboration & Version Control:We communicated regularly using group chats and held short meetings to track progress. Each member tested different features to ensure quality and resolve bugs quickly.</p> <!-- Group description and summary of skills -->
   </section>
 
   <div class="logo-photo"> <!-- Div container for the group logo photo -->

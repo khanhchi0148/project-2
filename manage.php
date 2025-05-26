@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8">
 <meta name="description" content="eoi management form">
 <meta name="keywords" content="eoi manager form">
 <meta name="author" content="KCC">
+=======
+  <link rel="stylesheet" href="styles/styles.css">
+>>>>>>> da939596c1e13bf5ac21882f64e138ee5e650795
   <title>EOI Manager</title>
   <link rel="stylesheet" href="styles/styles.css">
 </head>
