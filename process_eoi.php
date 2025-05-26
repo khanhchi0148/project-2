@@ -103,6 +103,51 @@ if (mysqli_query($conn, $sql)) {
     echo "<p>Error submitting application: " . mysqli_error($conn) . "</p>";
 }
 
+$sql = "SELECT * FROM eoi";
+$result = mysqli_query($conn, $sql);
+
+if (mysqli_num_rows($result) > 0) {
+    echo "<h2>All EOIs</h2>";
+    echo "<table border='1'>";
+    echo "<tr>
+        <th>EOI Number</th>
+        <th>Job Ref</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>Suburb</th>
+        <th>Postcode</th>
+        <th>State</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Skills</th>
+        <th>Other Skills</th>
+        <th>Status</th>
+    </tr>";
+
+    while ($row = mysqli_fetch_assoc($result)) {
+        echo "<tr>
+            <td>{$row['EOInumber']}</td>
+            <td>{$row['JobRefNumber']}</td>
+            <td>{$row['FirstName']}</td>
+            <td>{$row['LastName']}</td>
+            <td>{$row['StreetAddress']}</td>
+            <td>{$row['Suburb']}</td>
+            <td>{$row['Postcode']}</td>
+            <td>{$row['State']}</td>
+            <td>{$row['Email']}</td>
+            <td>{$row['Phone']}</td>
+            <td>{$row['Skills']}</td>
+            <td>{$row['OtherSkills']}</td>
+            <td>{$row['Status']}</td>
+        </tr>";
+    }
+
+    echo "</table>";
+} else {
+    echo "<p>No EOIs found.</p>";
+}
+
 mysqli_close($conn);
 ?>
 
