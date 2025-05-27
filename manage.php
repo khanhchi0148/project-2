@@ -161,7 +161,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $new_status = clean_input($dbconn, $_POST['new_status']);
         $sql = "UPDATE eoi SET Status = '$new_status' WHERE EOInumber = '$eoi_number'"; // sql statement to change the information inserted in the database table
         if (mysqli_query($dbconn, $sql)) {
-            echo "<p>Status for EOI number" . htmlspecialchars($eoi_number) . "updated to" . htmlspecialchars($new_status) . "'.</p>";
+            echo "<p>Status for EOI number " . htmlspecialchars($eoi_number) . " updated to " . htmlspecialchars($new_status) . ".</p>";
         } else {
             echo "<p>Can not updating status.</p>";
         }
