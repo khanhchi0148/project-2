@@ -69,8 +69,8 @@ if (!$dbconn) {
     die("<p>Database connection failed: " . htmlspecialchars(mysqli_connect_error()) . "</p>");
 }
 // Sanitize the input from database table
-function clean_input($conn, $data) {
-    return mysqli_real_escape_string($conn, trim($data));
+function clean_input($dbconn, $data) {
+    return mysqli_real_escape_string($dbconn, trim($data));
 }
 
 
