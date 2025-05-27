@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 26, 2025 at 03:18 PM
+-- Generation Time: May 27, 2025 at 02:57 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `eoi` (
-  `EOInumber` int(11) NOT NULL AUTO_INCREMENT,
+  `EOInumber` int(11) NOT NULL,
   `JobRefNumber` varchar(20) NOT NULL,
   `FirstName` varchar(20) NOT NULL,
   `LastName` varchar(20) NOT NULL,
@@ -48,10 +48,30 @@ CREATE TABLE `eoi` (
 --
 
 INSERT INTO `eoi` (`EOInumber`, `JobRefNumber`, `FirstName`, `LastName`, `StreetAddress`, `Suburb`, `State`, `Postcode`, `Email`, `Phone`, `Skills`, `OtherSkills`, `Status`) VALUES
-(1, 'CA096', 'wwdwdw', 'dwdwd', 'helllo', 'lol', 'VIC', 1212, 'hu@gmail.com', '1212', '', 'wdwdwdw', 'Current'),
+(1, 'CA096', 'wwdwdw', 'dwdwd', 'helllo', 'lol', 'VIC', 1212, 'hu@gmail.com', '1212', '', 'wdwdwdw', 'New'),
 (2, 'CA122', 'deded', 'edded', 'ededed', 'dededed', 'TAS', 1212, 'dh@gmail.com', '10101001010', '', 'ceece', 'New'),
 (3, 'CA122', 'deded', 'edded', 'ededed', 'dededed', 'TAS', 1212, 'dh@gmail.com', '10101001010', '', 'ceece', 'New'),
-(4, 'CA122', 'John', 'Smith', 'High St', 'Canberra', 'NSW', 1023, '', '0403912786', 'Python', 'Nothing else', 'New');
+(4, 'CA122', 'John', 'Smith', 'High St', 'Canberra', 'NSW', 1023, '', '0403912786', 'Python', 'Nothing else', 'New'),
+(5, 'CA096', 'John', 'Smith', 'High St', 'Canberra', 'SA', 3000, 'JohnSmith@gmail.com', '040777477', 'python, sql, html', 'Nothing', 'New'),
+(6, 'CA096', 'J', 'S', 'A', 'B', 'TAS', 1212, '12@gmail.com', '12131323413', 'python, java, C', '?', 'New'),
+(7, 'CA096', 'J', 'S', 'A', 'B', 'TAS', 1212, '12@gmail.com', '12131323413', 'python, java, C', '?', 'New'),
+(8, 'CA096', 'J', 'S', 'A', 'B', 'TAS', 1212, '12@gmail.com', '12131323413', 'python, java, C', '?', 'New'),
+(9, 'CA096', 'J', 'S', 'A', 'B', 'TAS', 1212, '12@gmail.com', '12131323413', 'python, java, C', '?', 'New'),
+(10, 'CA096', 'J', 'S', 'A', 'B', 'TAS', 1212, '12@gmail.com', '12131323413', 'python, java, C', '?', 'New'),
+(11, 'CA096', 'J', 'S', 'A', 'B', 'TAS', 1212, '12@gmail.com', '12131323413', 'python, java, C', '?', 'New'),
+(12, 'CA096', 'J', 'S', 'A', 'B', 'TAS', 1212, '12@gmail.com', '12131323413', 'python, java, C', '?', 'New'),
+(13, 'CA903', 'Jerry', 'Smith', 'High St', 'Canberra', 'ACT', 3000, 'Jerry@gmail.com', '0499777343', 'python, sql, html', 'None', 'New'),
+(14, 'CA903', 'Jerry', 'Smith', 'High St', 'Canberra', 'ACT', 3000, 'Jerry@gmail.com', '0499777343', 'python, sql, html', 'None', 'New'),
+(15, 'CA903', 'Jerry', 'Smith', 'High St', 'Canberra', 'ACT', 3000, 'Jerry@gmail.com', '0499777343', 'python, sql, html', 'None', 'New'),
+(16, 'CA096', 'Kerry', 'Frog', 'HighSt', 'Canberra', 'NSW', 200, 'gm@gmail.com', '0477875342', 'python, sql, html', 'hi', 'New'),
+(17, 'CA096', 'Kerry', 'Frog', 'High St', 'Canberra', 'NSW', 200, 'gm@gmail.com', '0477875342', 'python, sql, html', 'hi', 'New'),
+(18, 'CA096', 'hi', 'world', 'fffrg', 'A', 'TAS', 2121, 'gm@gmail.com', '0411974824', 'python, sql', 'vrvrvvr', 'New'),
+(19, 'CA096', 'hi', 'world', 'fffrg', 'A', 'TAS', 2121, 'gm@gmail.com', '0411974824', 'python, sql', 'vrvrvvr', 'New'),
+(20, 'CA096', 'AA', 'WDWD', 'FEFE', 'FEEF', 'ACT', 1212, 'GM@gmail.com', '0411099302', 'python, java, C', 'huh9o', 'New'),
+(21, 'CA122', 'World', 'Hello', 'RandomSt', 'Townn', 'QLD', 1212, 'hi@gmail.com', '0411974828', 'python, C++', 'hi', 'New'),
+(22, 'CA122', 'World', 'Hello', 'RandomSt', 'Townn', 'QLD', 1212, 'hi@gmail.com', '0411974828', 'python, C++', 'hi', 'New'),
+(23, 'CA122', 'World', 'Hello', 'RandomSt', 'Townn', 'QLD', 1212, 'hi@gmail.com', '0411974828', 'python, C++', 'hi', 'New'),
+(24, 'CA096', 'ekjgks', 'jegks', '7 idk st', 'Hawthorn', 'VIC', 3110, '123@email.com', '1234565689', 'python, javascript, java', 'askjfo', 'New');
 
 -- --------------------------------------------------------
 
@@ -106,7 +126,7 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `eoi`
 --
 ALTER TABLE `eoi`
-  MODIFY `EOInumber` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `EOInumber` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
